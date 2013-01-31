@@ -1,0 +1,3 @@
+AddType text/xml xml
+AddType application/xls xls
+AddType text/x-generic xls
