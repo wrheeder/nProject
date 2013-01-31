@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title><?page_title?>N!Project<?/?></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="shortcut icon" href="<?template?>images/favicon.ico<?/?>" type="image/x-icon"  />
+        <link rel="stylesheet" type="text/css" href="<?template?>css/jquery-ui.css<?/?>" />
+        <link rel="stylesheet" type="text/css" href="<?template?>css/atk-main.css<?/?>" />
+        <link rel="stylesheet" type="text/css" href="<?template?>css/atk-custom.css<?/?>" />
+        <?$js_include?>
+        <!--[if IE 8]>
+                <link rel="stylesheet" type="text/css" href="<?template?>css/ie8.css<?/?>"/>
+                <script type="text/javascript" src="<?template?>css/ie8.js<?/?>"/>
+        <![endif]-->
+        <script type="text/javascript">
+            $(function(){
+                    <?$document_ready?>
+                });
+        </script>
+    </head>
+    <body>
+        <div id="atk-layout" class="atk-wrapper">
+            <div id="header">
+                <div id="header-left" class="span4">
+                    <?logo?><div  id='cellc_logo' align="left" height="80" width="180" class="float-left">
+                        <a 
+                            href="<?page?>index<?/?>"><img src="<?template?>images/logo.png<?/?>" /></a></div><?/logo?>
+
+                </div>
+                <div id="header-center" class="span4">
+                    <h2>N!Project</h2>
+                </div>
+                <div id="header-right" class="span4"><?$Welcome?>
+                    <?Menu?>
+                    <div class="atk-menu atk-menu-horizontal ui-widget">
+                        <ul>
+                            <li class="ui-state-default"><a align="right" href="javascript:void(0)">Menu is not defined</a></li>
+                        </ul>
+                    </div>
+                    <?/?>
+                </div>
+                <span class="stretch hr"></span>
+            </div>
+            <?$Content?>
+        </div>
+        <div id="atk-footer-guard"></div>
+        <?Footer?>
+        <div id="footer" class="atk-wrapper">
+            <?footer_text?>
+            <?/?>
+            <?$run_time?>...
+        </div>
+        <?/?>
+        <div id="atk-growl-holder" class="atk-growl"></div>
+    </body>
+</html>

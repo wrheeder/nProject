@@ -1,0 +1,71 @@
+body{
+	background-image: url('../images/content-bg-home1.png');
+	background-repeat: no-repeat;
+	clip: rect(auto,auto,auto,auto);	
+}
+
+#footer{
+    margin-top: -1px;
+	text-align : center!important;
+}
+
+.atk-wrapper{
+    margin: 10px;
+    border: 1px solid #D0D0D0;
+    -webkit-box-shadow: 0 0 8px #D0D0D0;
+    width:99%!important;
+    padding-left: 0;
+    padding-right: 0%;
+}
+#atk-layout{
+    height: 93%!important;
+    min-height: 92%!important;
+}
+#header{
+	
+}
+#header-left{
+	float:left;
+    text-align : center!important;
+    vertical-align : center!important;
+	display: inline-block;
+	*display: inline;
+	zoom: 1
+}
+#header-center{
+
+	padding-top:2em;
+    text-align : center!important;
+    vertical-align : center!important;
+	display: inline-block;
+	*display: inline;
+	zoom: 1
+}		
+#header-right{
+	float:right;
+    text-align : right!important;
+    vertical-align : center!important;
+	display: inline-block;
+	*display: inline;
+	zoom: 1
+}	
+
+#nProject_menu{
+	float:right;
+	padding-top:2em;
+	padding-right:2em;
+}
+.stretch.hr{
+	width: 100%;
+    display: inline-block;
+	margin-top:0;
+}
+#atk-footer-guard {
+    height: 1%;
+	
+}
+.atk-grid.zebra > table > tbody > tr:nth-child(2n) > td {
+   background: #FFD700;
+    opacity:0.7;
+filter:alpha(opacity=70); /* For IE8 and earlier */
+}
